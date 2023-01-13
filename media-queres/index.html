@@ -10,29 +10,30 @@
     <style>
         /*Small devices (landscape phones)*/
         @media (min-width: 576px) {
-            body{
+            /*body{
                 background: tomato;
-            }
+            }*/
         }
 
-        /*Medium devices (tablets, 768px e superior)*/
+        /* Medium devices (tablets, 768px e superior)*/
         @media (min-width: 768px) {
-            body{
+            /*body{
                 background: indianred;
-            }
+            }*/
         }
 
         /*Large devices (desktops, 992px e superior)*/
         @media (min-width: 992px) {
-            body{
-                background: aqua;            }
+            /*body{
+                background: aqua;           
+             }*/
         }
 
         /*Extra large devices (large desktops, 1200px e superior)*/
         @media (min-width: 1200px) {
-            body{
+            /*body{
                 background: rgb(205, 92, 205);
-            }
+            }*/
         }
 
 
@@ -59,19 +60,39 @@
         /*No media query since this is the default in Bootstrap*/
 
                 /*Extra small devices (portrait phones, less than 576px)*/
-                @media (max-with: 575.98) {}
+                @media (max-width: 575px) {
+                    body{
+                      background: tomato;
+                                      }
+                }
 
                 /* Small devices (landscape phones, 576px and up)*/
-                @media (min-width: 576px) {}
+                @media (min-width: 576px) {
+                    body{
+                            background: indianred;
+                           }
+                }
 
                 /* Medium devices (tablets, 768px and up)*/
-                @media (min-width: 768px) {}
+                @media (min-width: 768px) {
+                    body{
+                     background: aqua;         
+                          }
+                }
 
                 /* Large devices (desktops, 992px and up)*/
-                @media (min-width: 992px) {}
+                @media (min-width: 992px) {
+                    body{
+                            background: rgb(205, 92, 205);
+                              }
+                }
 
                 /* Extra large devices (large desktops, 1200px and up)*/
-                @media (min-width: 1200px) {}
+                @media (min-width: 1200px) {
+                    body{
+                background: rgb(205, 92, 205);
+                 }
+                }
 
     </style>
 
