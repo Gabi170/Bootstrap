@@ -14,5 +14,14 @@
     "not and_ff <= 106",
     "not ios_saf <= 16.1",
     "not opera <= 92"
-  ]
+  ],
+  "hints": {
+    "axe/name-role-value": [
+      "default",
+      {
+        "button-name": "off"
+      }
+    ],
+    "button-type": "off"
+  }
 }
